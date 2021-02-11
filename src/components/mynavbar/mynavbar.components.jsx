@@ -13,8 +13,8 @@ const MyNavbar = () => {
       <Nav.Link href="#aboutme">Home</Nav.Link>
       <Nav.Link href="#skills">Tech Skills</Nav.Link>
       <Nav.Link href="#projects">Projects</Nav.Link>
-      <Nav.Link href="#research">Research</Nav.Link>
       <Nav.Link href="#experience">Experience</Nav.Link>
+      <Nav.Link href="#education">Education</Nav.Link>
       <Nav.Link href="#testimony">Testimony</Nav.Link>
       <Nav.Link href="#contact">Contact</Nav.Link>
     </Nav>

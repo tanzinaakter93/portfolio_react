@@ -1,10 +1,8 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card'
-import CardColumns from 'react-bootstrap/CardColumns'
 import CardDeck from 'react-bootstrap/CardDeck'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import Image from 'react-bootstrap/Image'
 import './projects.style.css'
 import spelling from '../../assets/img/projects/spellinggame.png'
 import proedge from '../../assets/img/projects/proedge.png'
@@ -25,42 +23,48 @@ const Projects=()=>{
         <Row className="d-flex justify-content-center mx-auto">
           {/* Frontend */}
           <Col md={3}>
-            <Card className="focus mt-2 mb-2 card-inner">
-            <Card.Img className="card-img-top img-fluid" style={{objectFit:"contain"}} src={spelling} />
-              <Card.Body>
-                {/* Frontend */}
+            <Card className="focus mt-2 mb-2 card-inner" style={{backgroundColor: "#FEDCD1"}} >
+            <Card.Img className="card-img-top img-fluid" src={spelling} />
+            <div className="image-overlay">
+              <div className="image-title">Developed with</div>
+              <div className="image-description">Flutter & Firebase
+               <a href="https://play.google.com/store/apps/details?id=com.tanzina.drag_drop" class="btn btn-fix text-center">View</a>
+               </div>
+            </div>
+              <Card.Body style={{backgroundColor: "#F6F6F6"}}>
                 <Card.Title className="text-center  card-title" >Spelling Game Mobile App</Card.Title>
-                <hr />
-                <Card.Text className="card-text d-flex justify-content-start flex-column">
-                </Card.Text>
               </Card.Body>
             </Card>
           </Col>
 
-          {/* Backend */}
+         
           <Col md={3}>
-            <Card className="focus mt-2 mb-2 card-inner">
-            <Card.Img className="card-img-top img-fluid"  style={{objectFit:"contain"}}  src={proedge} />
-              <Card.Body>
+            <Card className="focus mt-2 mb-2 card-inner" style={{backgroundColor: "#AFDDED"}}  >
+            <Card.Img className="card-img-top img-fluid" src={proedge} />
+            <div className="image-overlay">
+              <div className="image-title">Developed with</div>
+              <div className="image-description">PHP, jQuery, Bootstrap, MySQL
+              <a href="https://proedge-asso.com/" class="btn btn-fix text-center">View</a></div>
+            </div>
+              <Card.Body style={{backgroundColor: "#F6F6F6"}}>
                 <Card.Title className="text-center  card-title">Pro-edge Associates Limited Website</Card.Title>
-                <hr />
-                <Card.Text className="card-text d-flex justify-content-start flex-column">
-                  
-                </Card.Text>
               </Card.Body>
             </Card>
           </Col>
 
           {/* Programming Languages */}
           <Col md={3}>
-            <Card className="focus mt-2 mb-2 card-inner">
-                <Card.Img className="card-img-top img-fluid"  style={{objectFit:"contain"}}  src={portfolio} />
-              <Card.Body>
+            <Card className="focus mt-2 mb-2 card-inner"  style={{backgroundColor: "#FFB6C1"}} >
+                <Card.Img className="card-img-top img-fluid" src={portfolio} />
+                <div className="image-overlay">
+              <div className="image-title">Developed with</div>
+              <div className="image-description">ReactJS, ReactBootstrap
+              <a href="https://proedge-asso.com/" class="btn btn-fix text-center">View</a>
+              </div>
+            </div>
+              <Card.Body style={{backgroundColor: "#F6F6F6"}}>
                 <Card.Title className="text-center  card-title">Portfolio with React</Card.Title>
-                <hr />
-                <Card.Text className="card-text d-flex justify-content-start flex-column">
-                  
-                </Card.Text>
+                
               </Card.Body>
             </Card>
           </Col>
@@ -68,42 +72,47 @@ const Projects=()=>{
         <Row className="d-flex justify-content-center mx-auto">
           {/* Frontend */}
           <Col md={3}>
-            <Card className="focus mt-2 mb-2  card-inner">
-            <Card.Img className="card-img-top img-fluid"  style={{objectFit:"contain"}}  src={grocerylist} />
-              <Card.Body>
+            <Card className="focus mt-2 mb-2  card-inner" style={{backgroundColor: "#957DAD"}}>
+            <Card.Img className="card-img-top img-fluid" src={grocerylist} />
+            <div className="image-overlay">
+              <div className="image-title">Developed with</div>
+              <div className="image-description">React
+               <a href="#" class="btn btn-fix text-center">View</a></div>
+            </div>
+              <Card.Body style={{backgroundColor: "#F6F6F6"}}>
                 {/* Frontend */}
                 <Card.Title className="text-center  card-title">Grocery Bud</Card.Title>
-                <hr />
-                <Card.Text className="card-text d-flex justify-content-start flex-column">
-                </Card.Text>
               </Card.Body>
             </Card>
           </Col>
 
           {/* Backend */}
           <Col md={3}>
-            <Card className="focus mt-2 mb-2 card-inner">
-            <Card.Img className="card-img-top img-fluid"  style={{objectFit:"contain"}}  src={expensetracker} />
-              <Card.Body>
+            <Card className="focus mt-2 mb-2 card-inner" style={{backgroundColor: "#E1C6C5"}}  >
+            <Card.Img className="card-img-top img-fluid" src={expensetracker} />
+            <div className="image-overlay">
+              <div className="image-title">Developed with</div>
+              <div className="image-description">Javascript
+              <a href="#" class="btn btn-fix text-center">View</a></div>
+            </div>
+              <Card.Body style={{backgroundColor: "#F6F6F6"}}>
                 <Card.Title className="text-center  card-title">Basic Expense Tracker</Card.Title>
-                <hr />
-                <Card.Text className="card-text d-flex justify-content-start flex-column">
-                  
-                </Card.Text>
               </Card.Body>
             </Card>
           </Col>
 
           {/* Programming Languages */}
           <Col md={3}>
-            <Card className="focus mt-2 mb-2 card-inner">
-                <Card.Img variant="top" src="holder.js/100px160"  style={{objectFit:"contain"}} />
-              <Card.Body>
+            <Card className="focus mt-2 mb-2 card-inner" style={{backgroundColor: "#ACE9DD"}} >
+                <Card.Img className="card-img-top img-fluid"  src="holder.js/100px160"  />
+                <div className="image-overlay">
+              <div className="image-title">Developed with</div>
+              <div className="image-description">JavaScript, HTML, CSS, PHP, SQL
+              <a href="#" class="btn btn-fix text-center">View</a></div>
+            </div>
+              <Card.Body style={{backgroundColor: "#F6F6F6"}}>
                 <Card.Title className="text-center  card-title">Online Result Publishing</Card.Title>
-                <hr />
-                <Card.Text className="card-text d-flex justify-content-start flex-column">
-                  
-                </Card.Text>
+                
               </Card.Body>
             </Card>
           </Col>

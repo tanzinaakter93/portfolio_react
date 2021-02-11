@@ -5,6 +5,7 @@ import Skills from './pages/skills/skills.component';
 import './components/aboutmeslider/slider.css';
 import Experience from './components/experience/experience';
 import Projects from './components/projects/projects.component'
+import Research from './components/research/research.component'
 function App() {
   return (
     <div>
@@ -13,6 +14,7 @@ function App() {
     <Skills/>
     <Projects/>
     <Experience/>
+    <Research/>
     </div>
   );
 }
