@@ -6,6 +6,7 @@ import './components/aboutmeslider/slider.css';
 import Experience from './components/experience/experience';
 import Projects from './components/projects/projects.component'
 import Research from './components/research/research.component'
+import Footer from './components/footer/footer.component'
 function App() {
   return (
     <div>
@@ -15,6 +16,7 @@ function App() {
     <Projects/>
     <Experience/>
     <Research/>
+    <Footer/>
     </div>
   );
 }

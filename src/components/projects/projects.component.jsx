@@ -9,6 +9,8 @@ import proedge from '../../assets/img/projects/proedge.png'
 import portfolio from '../../assets/img/projects/portfolio.png'
 import grocerylist from '../../assets/img/projects/grocerylist.png'
 import expensetracker from '../../assets/img/projects/expensetracker.png'
+import recipejavascript from '../../assets/img/projects/recipe_javascript.png'
+import menu from '../../assets/img/projects/menu.png'
 
 
 const Projects=()=>{
@@ -28,7 +30,7 @@ const Projects=()=>{
             <div className="image-overlay">
               <div className="image-title">Developed with</div>
               <div className="image-description">Flutter & Firebase
-               <a href="https://play.google.com/store/apps/details?id=com.tanzina.drag_drop" class="btn btn-fix text-center">View</a>
+               <a href="https://play.google.com/store/apps/details?id=com.tanzina.drag_drop" target="_blank" class="btn btn-fix text-center">View</a>
                </div>
             </div>
               <Card.Body style={{backgroundColor: "#F6F6F6"}}>
@@ -44,7 +46,7 @@ const Projects=()=>{
             <div className="image-overlay">
               <div className="image-title">Developed with</div>
               <div className="image-description">PHP, jQuery, Bootstrap, MySQL
-              <a href="https://proedge-asso.com/" class="btn btn-fix text-center">View</a></div>
+              <a href="https://proedge-asso.com/" target="_blank" class="btn btn-fix text-center">View</a></div>
             </div>
               <Card.Body style={{backgroundColor: "#F6F6F6"}}>
                 <Card.Title className="text-center  card-title">Pro-edge Associates Limited Website</Card.Title>
@@ -52,14 +54,14 @@ const Projects=()=>{
             </Card>
           </Col>
 
-          {/* Programming Languages */}
+          
           <Col md={3}>
-            <Card className="focus mt-2 mb-2 card-inner"  style={{backgroundColor: "#FFB6C1"}} >
+            <Card className="focus mt-2 mb-2 card-inner"  style={{backgroundColor: "#ACE9DD"}} >
                 <Card.Img className="card-img-top img-fluid" src={portfolio} />
                 <div className="image-overlay">
               <div className="image-title">Developed with</div>
               <div className="image-description">ReactJS, ReactBootstrap
-              <a href="https://proedge-asso.com/" class="btn btn-fix text-center">View</a>
+              <a href="https://proedge-asso.com/" target="_blank" class="btn btn-fix text-center">View</a>
               </div>
             </div>
               <Card.Body style={{backgroundColor: "#F6F6F6"}}>
@@ -70,48 +72,47 @@ const Projects=()=>{
           </Col>
         </Row>
         <Row className="d-flex justify-content-center mx-auto">
-          {/* Frontend */}
+          
           <Col md={3}>
             <Card className="focus mt-2 mb-2  card-inner" style={{backgroundColor: "#957DAD"}}>
             <Card.Img className="card-img-top img-fluid" src={grocerylist} />
             <div className="image-overlay">
               <div className="image-title">Developed with</div>
               <div className="image-description">React
-               <a href="#" class="btn btn-fix text-center">View</a></div>
+               <a href="https://naughty-lovelace-4b5238.netlify.app" target="_blank" class="btn btn-fix text-center">View</a></div>
             </div>
               <Card.Body style={{backgroundColor: "#F6F6F6"}}>
-                {/* Frontend */}
                 <Card.Title className="text-center  card-title">Grocery Bud</Card.Title>
               </Card.Body>
             </Card>
           </Col>
 
-          {/* Backend */}
+          
           <Col md={3}>
             <Card className="focus mt-2 mb-2 card-inner" style={{backgroundColor: "#E1C6C5"}}  >
-            <Card.Img className="card-img-top img-fluid" src={expensetracker} />
+            <Card.Img className="card-img-top img-fluid" src={menu} />
             <div className="image-overlay">
               <div className="image-title">Developed with</div>
-              <div className="image-description">Javascript
-              <a href="#" class="btn btn-fix text-center">View</a></div>
+              <div className="image-description">React
+              <a href="https://clever-lichterman-38d492.netlify.app" target="_blank" class="btn btn-fix text-center">View</a></div>
             </div>
               <Card.Body style={{backgroundColor: "#F6F6F6"}}>
-                <Card.Title className="text-center  card-title">Basic Expense Tracker</Card.Title>
+                <Card.Title className="text-center  card-title">Menu-card</Card.Title>
               </Card.Body>
             </Card>
           </Col>
 
-          {/* Programming Languages */}
+   
           <Col md={3}>
-            <Card className="focus mt-2 mb-2 card-inner" style={{backgroundColor: "#ACE9DD"}} >
-                <Card.Img className="card-img-top img-fluid"  src="holder.js/100px160"  />
+            <Card className="focus mt-2 mb-2 card-inner" style={{backgroundColor: "#ECA54C" }} >
+                <Card.Img className="card-img-top img-fluid"  src={recipejavascript}  />
                 <div className="image-overlay">
               <div className="image-title">Developed with</div>
-              <div className="image-description">JavaScript, HTML, CSS, PHP, SQL
-              <a href="#" class="btn btn-fix text-center">View</a></div>
+              <div className="image-description">JavaScript, HTML, CSS
+              <a href="https://infallible-dubinsky-cc12ac.netlify.app" target="_blank" class="btn btn-fix text-center">View</a></div>
             </div>
               <Card.Body style={{backgroundColor: "#F6F6F6"}}>
-                <Card.Title className="text-center  card-title">Online Result Publishing</Card.Title>
+                <Card.Title className="text-center  card-title">Recipe App</Card.Title>
                 
               </Card.Body>
             </Card>

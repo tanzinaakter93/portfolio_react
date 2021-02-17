@@ -50,7 +50,9 @@ function AboutMe() {
 
           return (
             <article className={position} key={id}>
+              <div className="img-container">
               <img src={tanzina} alt={name} className="person-img" />
+              </div>
               <h4>{name}</h4>
               <p className="title">{title}</p>
               <p className="text">{quote}</p>
