@@ -41,16 +41,7 @@
 .image-overlay:hover {
   opacity: 1;
 }
-.image-title {
-  font-size: 2em;
-  font-weight: 500;
-}
-.image-description {
-  font-size: 1.5em;
-  margin: 0.25em;
-  padding: 1em;
-  text-align: center;
-}
+
 .font-details {
   font-size: 3em;
   font-weight: 500;
@@ -61,4 +52,28 @@
   height: 15vw;
   object-fit: contain;
   margin: auto;
+}
+
+.image-title {
+  font-size: 1em;
+  font-weight: 300;
+}
+.image-description {
+  font-size: 1em;
+  margin: 0.25em;
+  padding: 1em;
+  text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+  .image-title {
+    font-size: 2em;
+    font-weight: 500;
+  }
+  .image-description {
+    font-size: 1.5em;
+    margin: 0.25em;
+    padding: 1em;
+    text-align: center;
+  }
 }
