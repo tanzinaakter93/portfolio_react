@@ -61,7 +61,7 @@ const Projects=()=>{
                 <div className="image-overlay">
               <div className="image-title">Developed with</div>
               <div className="image-description">ReactJS, ReactBootstrap
-              <a href="https://proedge-asso.com/" target="_blank" class="btn btn-fix text-center">View</a>
+              <a href="https://portfolio-tanzinaakter.netlify.app" target="_blank" class="btn btn-fix text-center">View</a>
               </div>
             </div>
               <Card.Body style={{backgroundColor: "#F6F6F6"}}>
