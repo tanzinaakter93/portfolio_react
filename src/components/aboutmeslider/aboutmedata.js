@@ -1,7 +1,11 @@
-
+import image1 from '../../assets/img/slider/image1.jpg'
+import image2 from '../../assets/img/slider/image2.jpg';
+import image3 from '../../assets/img/slider/image3.jpg';
+import image4 from '../../assets/img/slider/image4.jpg';
 const people = [
   {
     id: 1,
+    image: image1,
     name: 'Tanzina Akter',
     title: 'Web Developer',
     quote:
@@ -9,6 +13,7 @@ const people = [
   },
   {
     id: 2,
+    image: image2,
     name: 'Tanzina Akter',
     title: 'Researcher',
     quote:
@@ -16,13 +21,15 @@ const people = [
   },
   {
     id: 3,
+    image: image3,
     name: 'Tanzina Akter',
-    title: 'Mobile Application Developer',
+    title: 'Mobile & Desktop Application Developer',
     quote:
-      'I also have hands on experience in mobile application development. I love working with Flutter. I am quite confident and curious to learn new languages.',
+      'I also have hands on experience in mobile application development as well as desktop application development. And I am quite curious to learn new languages.',
   },
   {
     id: 4,
+    image: image4,
     name: 'Tanzina Akter',
     /*title: 'product designer',*/
     quote:

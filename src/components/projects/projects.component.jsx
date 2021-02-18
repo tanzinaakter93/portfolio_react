@@ -79,7 +79,7 @@ const Projects=()=>{
             <div className="image-overlay">
               <div className="image-title">Developed with</div>
               <div className="image-description">React
-               <a href="https://naughty-lovelace-4b5238.netlify.app" target="_blank" class="btn btn-fix text-center">View</a></div>
+               <a href="https://grocerylist-react.netlify.app" target="_blank" class="btn btn-fix text-center">View</a></div>
             </div>
               <Card.Body style={{backgroundColor: "#F6F6F6"}}>
                 <Card.Title className="text-center  card-title">Grocery Bud</Card.Title>
@@ -94,7 +94,7 @@ const Projects=()=>{
             <div className="image-overlay">
               <div className="image-title">Developed with</div>
               <div className="image-description">React
-              <a href="https://clever-lichterman-38d492.netlify.app" target="_blank" class="btn btn-fix text-center">View</a></div>
+              <a href="https://menu-card.netlify.app" target="_blank" class="btn btn-fix text-center">View</a></div>
             </div>
               <Card.Body style={{backgroundColor: "#F6F6F6"}}>
                 <Card.Title className="text-center  card-title">Menu-card</Card.Title>
@@ -109,7 +109,7 @@ const Projects=()=>{
                 <div className="image-overlay">
               <div className="image-title">Developed with</div>
               <div className="image-description">JavaScript, HTML, CSS
-              <a href="https://infallible-dubinsky-cc12ac.netlify.app" target="_blank" class="btn btn-fix text-center">View</a></div>
+              <a href="https://recipe-app-javascript.netlify.app" target="_blank" class="btn btn-fix text-center">View</a></div>
             </div>
               <Card.Body style={{backgroundColor: "#F6F6F6"}}>
                 <Card.Title className="text-center  card-title">Recipe App</Card.Title>

@@ -27,6 +27,7 @@ import L_Cplus from "../../assets/img/skills/c++.svg";
 import L_C from "../../assets/img/skills/c.svg";
 import L_Netlify from "../../assets/img/skills/netlify.svg";
 import L_Firebase from "../../assets/img/skills/firebase.svg";
+import L_Electron from "../../assets/img/skills/electronjs-icon.svg";
 
 export const skills = {
   frontend: [
@@ -61,18 +62,6 @@ export const skills = {
       skillName: "React Bootstrap",
     },
     {
-      link: "https://styled-components.com/",
-      imgAltText: "styled-components",
-      imgSrc: L_STYLED_COMPONENTS,
-      skillName: "styled-components",
-    },
-    {
-      link: "https://www.javascript.com/",
-      imgAltText: "JavaScript",
-      imgSrc: L_JAVASCRIPT,
-      skillName: "JavaScript",
-    },
-    {
       link: "https://sass-lang.com/",
       imgAltText: "Sass",
       imgSrc: L_SASS,
@@ -95,7 +84,19 @@ export const skills = {
       imgAltText: "CSS 3",
       imgSrc: L_CSS3,
       skillName: "CSS3",
-    }
+    },
+     {
+      link: "https://flutter.dev/docs/get-started/install",
+      imgAltText: "Flutter",
+      imgSrc: L_Flutter,
+      skillName: "Flutter",
+    },
+    {
+      link: "https://www.electronjs.org",
+      imgAltText: "Electron",
+      imgSrc: L_Electron,
+      skillName: "Electron",
+    },
   ],
 
   backend: [
@@ -153,11 +154,11 @@ export const skills = {
       imgSrc: L_PYTHON,
       skillName: "Python",
     },
-    {
-      link: "https://flutter.dev/docs/get-started/install",
-      imgAltText: "Flutter",
-      imgSrc: L_Flutter,
-      skillName: "Flutter",
+     {
+      link: "https://www.javascript.com/",
+      imgAltText: "JavaScript",
+      imgSrc: L_JAVASCRIPT,
+      skillName: "JavaScript",
     },
     {
       link: "https://www.cplusplus.com",
