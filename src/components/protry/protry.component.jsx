@@ -107,7 +107,7 @@ const ProjectsTry= () => {
                   <div class="card-img-overlay">
                     <h4 class="card-title text-center">Developed with</h4>
                      <p class="card-text text-center">ReactJS, ReactBootstrap</p>
-                    <a href="https://portfolio-tanzinaakter.netlify.app" target="_blank" class="btn btn-lg" role="button">View</a>
+                    <a href="https://tanzina-akter.netlify.app" target="_blank" class="btn btn-lg" role="button">View</a>
                  </div>
                 </Card.Text>
               </Card.Body>
