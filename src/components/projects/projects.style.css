@@ -55,8 +55,8 @@
 }
 
 .image-title {
-  font-size: 1em;
-  font-weight: 300;
+  font-size: 0.5em;
+  font-weight: 200;
 }
 .image-description {
   font-size: 1em;
@@ -66,6 +66,19 @@
 }
 
 @media screen and (min-width: 800px) {
+  .image-title {
+    font-size: 1em;
+    font-weight: 300;
+  }
+  .image-description {
+    font-size: 1em;
+    margin: 0.25em;
+    padding: 1em;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 992px) {
   .image-title {
     font-size: 2em;
     font-weight: 500;

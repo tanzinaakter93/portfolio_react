@@ -17,15 +17,15 @@ const people = [
     name: 'Tanzina Akter',
     title: 'Researcher',
     quote:
-      'I am also a resercher. My research field is Design and Analysis of Algorithms, Graph Theory and Cryptography. Please visit the Research section for more details.',
+      'I am also a resercher. My research field is Design and Analysis of Algorithms, Graph Theory, and Cryptography.',
   },
   {
     id: 3,
     image: image3,
     name: 'Tanzina Akter',
-    title: 'Mobile & Desktop Application Developer',
+    title: 'Mobile Application Developer',
     quote:
-      'I also have hands on experience in mobile application development as well as desktop application development. And I am quite curious to learn new languages.',
+      'I have hands on experience in mobile application development. I love building educative apps. And I am quite curious to learn new languages.',
   },
   {
     id: 4,

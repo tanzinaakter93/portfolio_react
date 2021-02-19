@@ -22,7 +22,7 @@ const Projects=()=>{
         <div className='underline'></div>
       </div>
       <CardDeck>
-        <Row className="d-flex justify-content-center mx-auto">
+        <Row className="d-flex justify-content-around mx-auto">
           {/* Frontend */}
           <Col md={3}>
             <Card className="focus mt-2 mb-2 card-inner" style={{backgroundColor: "#FEDCD1"}} >
@@ -33,8 +33,8 @@ const Projects=()=>{
                <a href="https://play.google.com/store/apps/details?id=com.tanzina.drag_drop" target="_blank" class="btn btn-fix text-center">View</a>
                </div>
             </div>
-              <Card.Body style={{backgroundColor: "#F6F6F6"}}>
-                <Card.Title className="text-center  card-title" >Spelling Game Mobile App</Card.Title>
+              <Card.Body className="" style={{backgroundColor: "#F6F6F6"}}>
+                <Card.Title className="text-center  card-text" >Spelling Game</Card.Title>
               </Card.Body>
             </Card>
           </Col>
@@ -49,7 +49,7 @@ const Projects=()=>{
               <a href="https://proedge-asso.com/" target="_blank" class="btn btn-fix text-center">View</a></div>
             </div>
               <Card.Body style={{backgroundColor: "#F6F6F6"}}>
-                <Card.Title className="text-center  card-title">Pro-edge Associates Limited Website</Card.Title>
+                <Card.Title className="text-center  card-title">Pro-edge Website</Card.Title>
               </Card.Body>
             </Card>
           </Col>

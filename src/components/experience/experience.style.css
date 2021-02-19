@@ -242,7 +242,7 @@ Jobs
     box-shadow: -2px 0 var(--clr-primary-5);
   }
 }
-.btn {
+/*.btn {
   text-transform: uppercase;
   background: var(--clr-primary-5);
   color: var(--clr-primary-9);
@@ -265,6 +265,6 @@ Jobs
 .btn:hover {
   color: var(--clr-primary-1);
   background: var(--clr-primary-8);
-}
+}*/
 .center-btn {
 }

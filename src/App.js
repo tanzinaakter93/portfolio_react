@@ -4,16 +4,17 @@ import AboutMe from './components/aboutmeslider/aboutme'
 import Skills from './pages/skills/skills.component';
 import './components/aboutmeslider/slider.css';
 import Experience from './components/experience/experience';
-import Projects from './components/projects/projects.component'
+
 import Research from './components/research/research.component'
 import Footer from './components/footer/footer.component'
+import Protry from './components/protry/protry.component'
 function App() {
   return (
     <div>
     <MyNavbar/>
     <AboutMe/>
     <Skills/>
-    <Projects/>
+    <Protry/>
     <Experience/>
     <Research/>
     <Footer/>

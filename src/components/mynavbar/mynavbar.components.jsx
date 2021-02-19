@@ -12,7 +12,7 @@ const MyNavbar = () => {
     <Nav className="mx-auto">
       <Nav.Link href="#aboutme">Home</Nav.Link>
       <Nav.Link href="#skills">Tech Skills</Nav.Link>
-      <Nav.Link href="#projects">Projects</Nav.Link>
+      <Nav.Link href="#projectspro">Projects</Nav.Link>
       <Nav.Link href="#experience">Experience</Nav.Link>
       <Nav.Link href="#education">Education</Nav.Link>
     </Nav>

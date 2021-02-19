@@ -1,0 +1,57 @@
+.focus {
+  transition: transform 0.3s;
+}
+
+.focus:hover {
+  transform: scale(1.05);
+}
+
+.sectioncard {
+  width: 90vw;
+  margin: 1rem auto;
+  max-width: 1170px;
+}
+
+.proimage-style {
+  width: 80%;
+  height: 15vw;
+  object-fit: contain;
+  margin: auto;
+}
+
+.card-img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(54, 52, 56, 0.8);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.card-img-overlay:hover {
+  opacity: 1;
+}
+
+.card-img-overlay > .card-text {
+  font-size: 1em;
+  font-weight: 300;
+  color: white;
+}
+
+.card-img-overlay > .card-title {
+  font-size: 1.5em;
+  font-weight: 400;
+  color: white;
+}
+
+.card-img-overlay > .btn {
+  background-color: rgb(79, 160, 192);
+  color: white;
+}

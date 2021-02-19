@@ -91,12 +91,6 @@ export const skills = {
       imgSrc: L_Flutter,
       skillName: "Flutter",
     },
-    {
-      link: "https://www.electronjs.org",
-      imgAltText: "Electron",
-      imgSrc: L_Electron,
-      skillName: "Electron",
-    },
   ],
 
   backend: [

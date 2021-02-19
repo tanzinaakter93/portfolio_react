@@ -6,7 +6,7 @@
   transform: scale(1.05);
 }
 
-.card-title {
+.skills > .card-title {
   font-size: 2em;
   font-weight: 700;
 }
