@@ -4,6 +4,7 @@ import CardDeck from 'react-bootstrap/CardDeck'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import './projects.style.css'
+import beesecure_web_app from '../../assets/img/projects/beesecure_web_app.png'
 import spelling from '../../assets/img/projects/spellinggame.png'
 import proedge from '../../assets/img/projects/proedge.png'
 import portfolio from '../../assets/img/projects/portfolio.png'
@@ -73,7 +74,7 @@ const Projects=()=>{
         </Row>
         <Row className="d-flex justify-content-center mx-auto">
           
-          <Col md={3}>
+          {/* <Col md={3}>
             <Card className="focus mt-2 mb-2  card-inner" style={{backgroundColor: "#957DAD"}}>
             <Card.Img className="card-img-top img-fluid" src={grocerylist} />
             <div className="image-overlay">
@@ -83,6 +84,20 @@ const Projects=()=>{
             </div>
               <Card.Body style={{backgroundColor: "#F6F6F6"}}>
                 <Card.Title className="text-center  card-title">Grocery Bud</Card.Title>
+              </Card.Body>
+            </Card>
+          </Col> */}
+
+            <Col md={3}>
+            <Card className="focus mt-2 mb-2  card-inner" style={{backgroundColor: "#957DAD"}}>
+            <Card.Img className="card-img-top img-fluid" src={beesecure_web_app} />
+            <div className="image-overlay">
+              <div className="image-title">Developed with</div>
+              <div className="image-description">Codeigniter, JavaScript, JQuery, SQL
+               <a href="https://app.beesecure.ca/login" target="_blank" class="btn btn-fix text-center">View</a></div>
+            </div>
+              <Card.Body style={{backgroundColor: "#F6F6F6"}}>
+                <Card.Title className="text-center  card-title">BeeSecure Web App</Card.Title>
               </Card.Body>
             </Card>
           </Col>
